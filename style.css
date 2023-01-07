@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-image: url('images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-position: 18px;
+  height: 100vh;
+  width: 100%;
+
+
+}
+
+.banner-text {
+  margin-left: 620px;
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  align-items: center;
+
+}
+
+.h {
+  font-weight: 300px;
+  font-size: 60px;
+  margin-top: 150px;
+  text-align: right;
+}
+
+.p {
+  font-weight: 80px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.banner-text-btn {
+  width: 150px;
+  height: 60px;
+  font-weight: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+}
+
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+
+}
+
+.content {
+  margin-top: 250px;
+  text-align: justify;
+  margin-left: 200px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-top: 110px;
+}
+
+.img-heading {
+  background-image: linear-gradient(rgba(44, 40, 35, 0.95), rgba(22, 18, 16, 0.81)), url('images/watch.png');
+  width: 100%;
+  height: 300px;
+
+
+}
+
+.img-heading-text {
+  margin: 40px;
+  margin-top: 60px;
+
+  color: #f6f8f1d5;
+  font-weight: 200px;
+  font-size: 40px;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.img-heading-btn {
+  margin-left: 40px;
+  width: 150px;
+  height: 60px;
+  font-weight: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: orangered;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.skills-container {
+  display: flex;
+  gap: 54px;
+}
+
+.skills {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skill-description {
+  color: #757575;
+}
+
+
+/* contact styles */
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #f1e1d6;
+  padding: 60px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+
+}
+
+
+.contact a {
+  text-decoration: none;
+}
+
+.btn-submit {
+  margin-left: 40px;
+  width: 150px;
+  height: 60px;
+  font-weight: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(247, 242, 240);
+  background-color: rgb(243, 100, 5);
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 100px 15%;
+  color: white;
+  background-color: rgb(22, 22, 22);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subscribe {
+  margin-left: 40px;
+}
+
+.email-btn {
+  margin-left: 40px;
+  width: 250px;
+  height: 55px;
+  font-weight: 15px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  background-color: rgb(15, 15, 15);
+  border: black;
+  border-radius: 5px;
+}
+
+.subscribe-btn {
+  margin-left: 40px;
+  width: 150px;
+  height: 55px;
+  font-weight: 60px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: rgb(243, 71, 4);
+  background-color: rgb(247, 244, 242);
+  border: none;
+  border-radius: 5px;
+}
